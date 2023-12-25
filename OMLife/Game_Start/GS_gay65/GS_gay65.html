@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameStart_GAY65</title>
+    <!--reset-------------------------------------------------------------------------->
+    <link href="./css/gay65_reset.css" rel="stylesheet"/>
+
+    <!--google font-------------------------------------------------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap"
+          rel="stylesheet"/>
+
+    <!--bootstrap-------------------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--CSS--------------------------------------------------------------------------->
+    <link href="./css/gay65_main.css" rel="stylesheet"/>  
+
+    <!--icon------------------------------------------------------------------------->
+    <link rel="icon" type="image/x-icon" href="./img/gay65_man_icon.png" />
+    
+  </head>
+  <body>
+   <!--BG--------------------------------------------------------------------------->
+   <div class="bg_rainbow"></div>
+
+   <!--navbar--------------------------------------------------------------------------->
+   <nav class="navbar fixed-top bg-body-tertiary">
+      <button
+      type="button"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      <a class="logo" href="#">
+        <img src="./img/gay65_logo.png" width="15%vw"/>
+      </a>
+   </button>
+   </nav>
+
+   <!--main visual--------------------------------------------------------------------------->
+   <div class="floor">
+     <img src="./img/gay65_floor.png" width="100%vw"/>
+   </div>
+
+   <div class="Gay_defult"><img src="./img/gay65_standby.gif" /></div>
+
+   <!--overflow--------------------------------------------------------------------------->
+   <div class="overflow">
+    <p>
+      <ul>
+        <li class="AirBlock_QA">
+          <p class="Question" id="AB-1">
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;
+          Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;Air_Block;</p>
+        </li>
+
+        <li class="first_QA">
+          <p class="Question" id="Q1">
+          first_Question;first_Question;
+          first_Question;first_Question;
+          first_Question;first_Question;
+          first_Question;first_Question;
+          first_Question;first_Question;</p>
+          <input type="radio" class="opition" name="mc1" id="1A" />
+          <label for="1A"><p>A. first_Answer-A</p></label>
+          <input type="radio" class="opition" name="mc1" id="1B" />
+          <label for="1B"><p>B. first_Answer-B</p></label>
+        </li>
+
+        <li class="second_QA">
+          <p class="Question" id="Q2">
+            second_Question;second_Question;
+            second_Question;second_Question;
+            second_Question;second_Question;
+            second_Question;second_Question;
+            second_Question;second_Question;</p>
+            <input type="radio" class="opition" name="mc2" id="2A" />
+            <label for="2A"><p>A. second_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc2" id="2B" />
+            <label for="2B"><p>B. second_Answer-B</p></label>
+        </li>
+
+        <li class="third_QA">
+          <p class="Question" id="Q3">
+            third_Question;third_Question;
+            third_Question;third_Question;
+            third_Question;third_Question;
+            third_Question;third_Question;
+            third_Question;third_Question;</p>
+            <input type="radio" class="opition" name="mc3" id="3A" />
+            <label for="3A"><p>A. third_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc3" id="3B" />
+            <label for="3B"><p>B. third_Answer-B</p></label>
+        </li>
+
+        <li class="fourth_QA">
+          <p class="Question" id="Q4">
+            fourth_Question;fourth_Question;
+            fourth_Question;fourth_Question;
+            fourth_Question;fourth_Question;
+            fourth_Question;fourth_Question;
+            fourth_Question;fourth_Question;</p>
+            <input type="radio" class="opition" name="mc4" id="4A" />
+            <label for="4A"><p>A. fourth_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc4" id="4B" />
+            <label for="4B"><p>B. fourth_Answer-B</p></label>
+        </li>
+
+        <li class="fifth_QA">
+          <p class="Question" id="Q5">
+            fifth_Question;fifth_Question;
+            fifth_Question;fifth_Question;
+            fifth_Question;fifth_Question;
+            fifth_Question;fifth_Question;
+            fifth_Question;fifth_Question;</p>
+            <input type="radio" class="opition" name="mc5" id="5A" />
+            <label for="5A"><p>A. fifth_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc5" id="5B" />
+            <label for="5B"><p>B. fifth_Answer-B</p></label>
+        </li>
+
+        <li class="sixth_QA">
+          <p class="Question" id="Q6">
+            sixth_Question;sixth_Question;
+            sixth_Question;sixth_Question;
+            sixth_Question;sixth_Question;
+            sixth_Question;sixth_Question;
+            sixth_Question;sixth_Question;</p>
+            <input type="radio" class="opition" name="mc6" id="6A" />
+            <label for="6A"><p>A. sixth_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc6" id="6B" />
+            <label for="6B"><p>B. sixth_Answer-B</p></label>
+        </li>
+
+        <li class="seventh_QA">
+          <p class="Question" id="Q7">
+            seventh_Question;seventh_Question;
+            seventh_Question;seventh_Question;
+            seventh_Question;seventh_Question;
+            seventh_Question;seventh_Question;
+            seventh_Question;seventh_Question;</p>
+            <input type="radio" class="opition" name="mc7" id="7A" />
+            <label for="7A"><p>A. seventh_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc7" id="7B" />
+            <label for="7B"><p>B. seventh_Answer-B</p></label>
+        </li>
+
+        <li class="eighth_QA">
+          <p class="Question" id="Q8">
+            eighth_Question;eighth_Question;
+            eighth_Question;eighth_Question;
+            eighth_Question;eighth_Question;
+            eighth_Question;eighth_Question;
+            eighth_Question;eighth_Question;</p>
+            <input type="radio" class="opition" name="mc8" id="8A" />
+            <label for="8A"><p>A. eighth_Answer-A</p></label>
+            <input type="radio" class="opition" name="mc8" id="8B" />
+            <label for="8B"><p>B. eighth_Answer-B</p></label>
+        </li>
+
+        <li class="Next_Level">
+          <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Life/code/Dead_END/Dead_END.html#">
+            <img src="./img/gay65_NextLevel_defult.png" class="Next" id="NL">
+            <p class="AirBlock_QA" id="AB-2">
+              Air_Block;Air_Block;
+              </p>
+          </a>
+        </li>
+
+      </ul>
+    </p>
+    
+   <!--Animation---------------------------------------------------------------------->
+      <div class="fall-wrapper">
+        <img class="fall" src="./img/gay65_loading_fall.gif" width="25%vw" />
+      </div>
+    </div>
+
+   <!--modal-------------------------------------------------------------------------->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+
+   <div class="modal-dialog modal-dialog-centered" >
+     <div class="modal-content">
+       <div class="modal-button">
+        <button
+         type="button"
+         class="close"
+         data-bs-dismiss="modal"
+         aria-label="Close">
+      
+        <img
+          class="closeButton"
+          src="./img/gay65_modal_close_defult.png"/>
+
+       <div class="botton">
+         <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Life/code/Homepage/Homepage.html#" class="back">
+          <img src="./img/gay65_modal_back_defult.png"></a>
+         <a href="#" class="continue"><img src="./img/gay65_modal_continue_defult.png" ></a>
+       </div>
+     </div>
+   </div>
+
+    <img
+      class="modal-body"
+      src="./img/gay65_modal_AreUSure.png"
+      width="170%vw"
+    />
+ </div>
+
+   <!--JS-------------------------------------------------------------------------->
+   <script src="./JS/gay65_jquery-3.7.1.min.js"></script>
+
+  <!--bootstrap----------------------------------------------------------------------->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="./JS/gay65_jquery-3.7.1.min.js"></script>
+   <script src="./JS/gay65.js"></script>
+  </body>
+</div>
+</html>

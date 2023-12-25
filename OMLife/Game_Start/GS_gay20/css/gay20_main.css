@@ -1,0 +1,358 @@
+.bg_rainbow {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #0cecdd,
+    #8ef084,
+    #fff338,
+    #ff9b8d,
+    #ff44e1,
+    #9700de
+  );
+  background-size: 300% 300%;
+  animation: color 8s ease-in-out infinite;
+}
+@keyframes color {
+  0% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+.floor img {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+}
+
+/*--navbar-----------------------------------------------------------------------*/
+.logo img {
+  display: inline-block;
+  position: absolute;
+  margin-top: 1.8%;
+  margin-left: 6.3%;
+  z-index: 20;
+}
+
+.navbar {
+  background: none;
+  padding: 0px;
+}
+
+/*--Gay pose-----------------------------------------------------------------------*/
+.Gay_defult img {
+  position: absolute;
+  margin-left: 17%;
+  margin-bottom: 3%;
+  bottom: 0px;
+  height: 80%;
+  z-index: 30;
+  align-items: center;
+}
+
+/*--overflow-----------------------------------------------------------------------*/
+.overflow {
+  position: absolute;
+  top: 0px;
+  right: 13%;
+  width: 38%;
+  height: 81%;
+  overflow-x: scroll;
+  z-index: 30;
+  font-family: Noto Sans TC;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  margin-top: -10px;
+  display: block;
+  padding: 2px;
+  padding-left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #191a1b;
+  border-radius: 10px;
+}
+
+label p {
+  margin: unset;
+}
+
+input {
+  visibility: hidden;
+}
+
+input:hover + label {
+  transition: background-color 0.5s ease;
+  background: #0cecdd;
+}
+
+input:checked + label {
+  transition: background-color 0.5s ease;
+  background: #9700de;
+  color: #ffffff;
+}
+
+/*----------------------------------------------------------------------*/
+
+.AirBlock_QA {
+  display: inline-block;
+  background-color: transparent;
+  color: transparent;
+  border-color: transparent;
+  border: 2px solid transparent;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.first_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.second_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.third_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.fourth_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.fifth_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.sixth_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.seventh_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.eighth_QA {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #000000;
+  border: 2px solid #191a1b;
+  border-radius: 22px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.Next_Level {
+  display: inline-block;
+  background-color: transparent;
+  border-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  margin-left: unset;
+  padding: 30px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.Next_Level img:hover {
+  content: url(../img/gay20_NextLevel_hover.png);
+  transition: background-color 0.5s ease;
+}
+/*--animation---------------------------------------------------------------------*/
+.fall {
+  position: absolute;
+  top: 22%;
+  left: 38%;
+}
+
+.fall-wrapper {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #231815;
+  z-index: 99;
+  opacity: 0;
+  animation: delayshow 5s ease-out;
+}
+@keyframes delayshow {
+  0% {
+    opacity: 1;
+    top: 0%;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+    top: 0%;
+  }
+  100% {
+    opacity: 0;
+    top: 100%;
+  }
+}
+
+/*--modal------------------------------------------------------------------------*/
+.modal-dialog {
+  right: 10%;
+}
+
+.modal-content {
+  margin: 0%;
+  padding: 0%;
+  background: transparent;
+  border: transparent;
+}
+.modal-button {
+  background-color: rgb(247, 21, 21);
+  color: rgb(247, 21, 21, 0);
+  width: 0px;
+  z-index: 90;
+}
+
+.closeButton {
+  background-color: rgb(249, 10, 205, 0);
+  padding-left: 700px;
+  padding-top: 24px;
+  margin-top: -40px;
+  z-index: 90;
+}
+
+.closeButton:hover {
+  content: url(../img/gay20_modal_close_hover.png);
+  transition: 1s ease;
+}
+
+.modal-body {
+  background-color: rgb(36, 36, 75, 0);
+  padding: unset;
+  margin: unset;
+  z-index: 50;
+}
+
+.modal-content img {
+  z-index: 5;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+
+.navbar button {
+  background: transparent;
+  border: transparent;
+}
+
+button.close {
+  padding: unset;
+  border-radius: 100%;
+  width: 0%;
+  height: 0%;
+  left: 10%;
+  background: transparent;
+  border: transparent;
+}
+
+.back {
+  display: inline-block;
+  padding-top: 340px;
+  padding-left: 135px;
+  margin-top: 15px;
+}
+
+.back img:hover {
+  content: url(../img/gay20_modal_back_hover.png);
+  transition: 1s ease;
+}
+
+.continue {
+  display: inline-block;
+  position: absolute;
+  left: 450px;
+  background: transparent;
+  top: 394px;
+}
+
+.continue img:hover {
+  content: url(../img/gay20_modal_continue_hover.png);
+  transition: 1s ease;
+}
+/*--Click JS---------------------------------------------------------------------*/
+.second_QA,
+.third_QA,
+.fourth_QA,
+.fifth_QA,
+.sixth_QA,
+.seventh_QA,
+.eighth_QA,
+.Next_Level {
+  display: none;
+}

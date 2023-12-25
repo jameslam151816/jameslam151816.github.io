@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead_END</title>
+    <!--reset------------------------------------------------------------------------>
+    <link href="./css/DE_reset.css" rel="stylesheet" />
+
+    <!--bootstrap-------------------------------------------------------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+
+    <!--google font------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap"
+      rel="stylesheet"/>
+
+    <!--CSS---------------------------------------------------------------------------->
+    <link href="./css/DE_main.css" rel="stylesheet" />
+    
+   <!--icon------------------------------------------------------------------------->
+   <link rel="icon" type="image/x-icon" href="./img/DE_man_icon.png" />
+   
+  </head>
+
+  <body>
+    <!--bakcground---------------------------------------------------------------------->
+    <div class="bg_rainbow"></div>
+
+    <!--nav----------------------------------------------------------------------------->
+    <nav class="navbar fixed-top bg-body-tertiary">
+
+      <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <a class="logo" href="#">
+            <img src="./img/DE_logo.png" />
+          </a>
+       </button>
+    </nav>
+
+    <!--main visual----------------------------------------------------------------------------->
+    <div class="game_die_container">
+      <div class="main_you_die">
+        <img src="./img/DE_youDie.png" />
+      </div>
+      <div class="main_star_color">
+        <img src="./img/DE_starColor.gif" />
+      </div>
+      <div class="main_star_white">
+        <img src="./img/DE_starWhite.gif" />
+      </div>
+      <div class="main_star_yellow">
+        <img src="./img/DE_starYellow.gif" />
+      </div>
+      <div class="main_text">
+        <img src="./img/DE_text_defult.gif" />
+      </div>
+      <div class="main_floor">
+        <img src="./img/DE_floor.png" />
+      </div>
+    </div>
+
+    <!--button------------------------------------------------------------------------------>
+    <div class="botton">
+      <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Life/code/Homepage/Homepage.html#"><button type="button" class="END_button">
+        結束人生旅程</button>
+      </a>
+    </div>
+
+    <!--modal-------------------------------------------------------------------------------->
+
+ <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+
+   <div class="modal-dialog modal-dialog-centered" >
+     <div class="modal-content">
+       <div class="modal-button">
+         <button
+         type="button"
+         class="close"
+         data-bs-dismiss="modal"
+         aria-label="Close">
+
+         <img
+          class="closeButton"
+          src="./img/DE_modal_close_defult.png"/>
+
+         <div class="botton">
+           <a href="file:///C:/Users/User/OneDrive/%E6%A1%8C%E9%9D%A2/Life/code/Homepage/Homepage.html#" class="back"><img src="./img/DE_modal_back_defult.png"></a>
+           <a href="#" class="continue"><img src="./img/DE_modal_continue_defult.png" ></a>
+         </div>
+
+        </div>
+     </div>
+
+         <img
+           class="modal-body"
+           src="./img/DE_modal_AreUSure.png"
+           width="170%vw"
+           />
+
+    </div>
+  </div>
+
+   <!--Animation-------------------------------------------------------------------------->
+      <div class="fall-wrapper">
+        <img class="fall" src="./img/DE_loading_fall.gif" width="25%vw" />
+      </div>
+    </div>
+
+    <!--bootstrap js---------------------------------------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
