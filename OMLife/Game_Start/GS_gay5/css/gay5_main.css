@@ -107,7 +107,6 @@ input:checked + label {
 
 /*----------------------------------------------------------------------*/
 
-/*----
 .AirBlock_QA {
   display: inline-block;
   background-color: transparent;
@@ -118,7 +117,6 @@ input:checked + label {
   padding: 20px;
   vertical-align: middle;
 }
-----*/
 
 .first_QA {
   display: inline-block;

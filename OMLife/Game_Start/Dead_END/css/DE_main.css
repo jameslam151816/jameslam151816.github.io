@@ -4,6 +4,7 @@ body {
     rgba(2, 0, 36, 1) 0%,
     rgba(255, 68, 225, 1) 100%
   );
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
 }
@@ -13,7 +14,8 @@ body {
 .logo img {
   display: inline-block;
   position: absolute;
-  height: 2599%;
+  margin-top: 18%;
+  margin-left: 6%;
   z-index: 20;
 }
 
@@ -27,11 +29,13 @@ body {
 /*--main-------------------------------------------------------------------------*/
 .game_die_container {
   position: absolute;
+  width: 100%vw;
   justify-content: center;
   align-items: center;
 }
 .main_you_die {
   position: absolute;
+  width: 100%vw;
   top: 80px;
   z-index: 0;
 }
@@ -59,7 +63,6 @@ body {
   position: absolute;
   top: 869px;
   width: 100vw;
-  z-index: 20;
 }
 
 .game_die_main {
@@ -68,7 +71,7 @@ body {
 
 .main_text {
   position: absolute;
-  top: 500px;
+  top: 420px;
   left: 550px;
   z-index: 50;
 }
@@ -78,17 +81,38 @@ body {
   transition: background-color 0.5s ease;
 }
 
+.main_grave img {
+  position: absolute;
+  top: 510px;
+  left: 737px;
+  width: 22vw;
+}
+
 /*--END button-------------------------------------------------------------------------*/
 .END_button {
   position: absolute;
-  top: 62%;
-  left: 43.5%;
+  top: 67%;
+  left: 58%;
   width: 260px;
   height: 66px;
   padding: 7px 25px;
   text-decoration: none;
   gap: 10px;
   flex-shrink: 0;
+  z-index: 90;
+}
+
+.REBORN_button {
+  position: absolute;
+  top: 67%;
+  left: 26.4%;
+  width: 260px;
+  height: 66px;
+  padding: 7px 25px;
+  text-decoration: none;
+  gap: 10px;
+  flex-shrink: 0;
+  z-index: 90;
 }
 
 button {

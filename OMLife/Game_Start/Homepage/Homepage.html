@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!--reset--------------------------------------------------------------------------->
+    <link href="./css/HP_reset.css" rel="stylesheet" />
+
+    <!--bootstrap--------------------------------------------------------------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!--CSS--------------------------------------------------------------------------->
+    <link href="./css/HP_main.css" rel="stylesheet" />
+
+    <!--JS---------------------------------------------------------------------------->
+    <link href="./js/HP_mainJS.js" rel="stylesheet" />
+
+    <!--icon------------------------------------------------------------------------->
+    <link rel="icon" type="image/x-icon" href="./img/HP_man_icon.png" />
+  </head>
+  <body>
+    <!--navbar------------------------------------------------------------------------>
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="logo" href="#"> <img src="./img/HP_logo.png" /></a>
+
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <a class="Quastion" href="#">
+            <img src="./img/HP_Question_defult.png" width="62%vw" />
+          </a>
+        </button>
+      </div>
+    </nav>
+
+    <!--main Visual-------------------------------------------------------------------->
+    <div class="mainPic">
+      <ul>
+        <li class="words">
+          <img src="./img/HP_words.gif" width="110%vw" />
+        </li>
+        <li class="walkingMan">
+          <img src="./img/HP_manWalk.gif" width="72%vw" />
+        </li>
+        <li class="earth">
+          <img src="./img/HP_earth.gif" width="35%vw" />
+        </li>
+        <li class="rock">
+          <img src="./img/HP_rock_defult.gif" width="25%vw" />
+        </li>
+        <li class="lifeSucks">
+          <img src="./img/HP_lifeSuck_defult.gif" width="60%vw" />
+        </li>
+        <li class="lip">
+          <img src="./img/HP_lip_defult.gif" width="35%vw" />
+        </li>
+        <li class="GameStartBottom">
+          <img src="./img/HP_gameStart_defult.gif" width="110%vw" />
+        </li>
+        <li class="star1">
+          <img src="./img/HP_starColor.gif" width="115%vw" />
+        </li>
+        <li class="star2">
+          <img src="./img/HP_starWhite.gif" width="115%vw" />
+        </li>
+        <li class="laughCry">
+          <img src="./img/HP_laughcry.png" width="34%vw" />
+        </li>
+        <li class="love">
+          <img src="./img/HP_loveEye.png" width="18%vw" />
+        </li>
+        <li class="starEyes">
+          <img src="./img/HP_starEye.png" width="28%vw" />
+        </li>
+        <li class="horny">
+          <img src="./img/HP_horny.png" width="18%vw" />
+        </li>
+      </ul>
+    </div>
+
+    <!-- ? modal------------------------------------------------------------------>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-button">
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img class="closeButton" src="./img/HP_modal_close_defult.png" />
+            </button>
+          </div>
+        </div>
+
+        <img class="modal-body" src="./img/HP_modal_intro.png" width="170%vw" />
+      </div>
+    </div>
+
+    <!--Rolling Man------------------------------------------------------------------>
+
+    <div>
+      <button id="prev">
+        <div class="RollinMan"></div>
+      </button>
+    </div>
+
+    <!--circle_carousel---------------------------------------------------------->
+    <div class="circle_carousel">
+      <div class="circle_carousel_inner">
+        <div class="container">
+          <div class="wrapper">
+
+<!------CatCard----------------------------------->
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal-Cat">
+
+            <div id="CatCard">
+              <div class="item 1 active">
+                <img src="./img/HP_card_CAT_defult.png" width="100px" />
+              </div>
+            </div>
+
+             <a class="CatModal-trigger" href="#"> </a>
+          </button>
+
+<!------YJCard----------------------------------->
+            <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal-YJ">
+
+            <div id="YJCard">
+              <div class="item 2">
+                <img src="./img/HP_card_YJ_defult.png" width="100px" />
+              </div>
+            </div>
+
+             <a class="YJModal-trigger" href="#"> </a>
+          </button>
+
+<!------NormalCard------------------------------------>
+            <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal-Normal">
+
+            <div id="NormalCard">
+              <div class="item 3">
+                <img src="./img/HP_card_NORMAL_defult.png" width="100px" />
+              </div>
+            </div>
+
+             <a class="NormalModal-trigger" href="#"> </a>
+          </button>
+
+<!------LuckyCard----------------------------------->
+          <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal-Lucky">
+
+          <div id="LuckyCard">
+            <div class="item 4">
+              <img src="./img/HP_card_LUCKY_defult.png" width="100px" />
+            </div>
+          </div>
+
+           <a class="LuckyModal-trigger" href="#"> </a>
+        </button>
+
+<!-------GayCard---------------------------------->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal-Gay">
+
+                <div id="GayCard">
+                  <div class="item 5">
+                    <img src="./img/HP_card_GAY_defult.png" width="100px" />
+                  </div>
+                </div>
+
+                <a class="GayModal-trigger" href="#"> </a>
+            </button>
+
+<!----------------------------------------->
+            <div class="item 6">
+              <img src="./img/HP_card_Left.png" width="96px" />
+            </div>
+            <div class="item 7" >
+              <img src="./img/HP_card_Center.png" width="100px" />
+            </div>
+            <div class="item 8">
+              <img src="./img/HP_card_Right.png" width="100px" />
+            </div>
+            <svg viewBox="0 0 300 300">
+              <circle id="holder" class="st0" cx="151" cy="151" r="150" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card modal------------------------------------------------------------------>
+ <!-- GAY -------------------------------------------------------------->
+ <div class="GayModal">
+  <div
+    class="modal fade"
+    id="exampleModal-Gay"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" id="Gay_modal-dialog">
+      <div class="modal-content" id="Gay_modal-content">
+        <div class="modal-button" id="Gay_modal-button">
+          <button
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              class="Gay_closeButton"
+              id="Gay_closeButton"
+              src="./img/HP_GAYmodal_close_defult.png"
+            />
+
+            <div class="Gay_botton">
+              <a
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="Gay_choose"
+                ><img src="./img/HP_GAYmodal_choose_defult.png"
+              /></a>
+              <a href="../GS_gay5/GS_gay5.html" class="Gay_StartLife"
+                ><img src="./img/HP_GAYmodal_StartLife_defult.png"
+              /></a>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <img
+      class="modal-body"
+      id="Gay_modal-body"
+      src="./img/HP_GayIntro_modal.png"
+    />
+
+  </div>
+</div>
+
+<!--LUCKY-------------------------------------------------------------->
+<div class="LuckyModal">
+  <div
+    class="modal fade"
+    id="exampleModal-Lucky"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" id="Lucky_modal-dialog">
+      <div class="modal-content" id="Lucky_modal-content">
+        <div class="modal-button" id="Lucky_modal-button">
+          <button
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              class="Lucky_closeButton"
+              id="Lucky_closeButton"
+              src="./img/HP_LUCKYmodal_close_defult.png"
+            />
+
+            <div class="Lucky_botton">
+              <a
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="Lucky_choose"
+                ><img src="./img/HP_LUCKYmodal_choose_defult.png"
+              /></a>
+              <a href="#" class="Lucky_Pay"
+                ><img src="./img/HP_LUCKYmodal_pay_defult.png"
+              /></a>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <img
+      class="modal-body"
+      id="Lucky_modal-body"
+      src="./img/HP_LUCKYIntro_modal.png"
+    />
+
+  </div>
+</div>
+
+ <!--NORMAL-------------------------------------------------------------->
+ <div class="NormalModal">
+  <div
+    class="modal fade"
+    id="exampleModal-Normal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" id="Normal_modal-dialog">
+      <div class="modal-content" id="Normal_modal-content">
+        <div class="modal-button" id="Normal_modal-button">
+          <button
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              class="Normal_closeButton"
+              id="Normal_closeButton"
+              src="./img/HP_NORMALmodal_close_defult.png"
+            />
+
+            <div class="Normal_botton">
+              <a
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="Normal_choose"
+                ><img src="./img/HP_NORMALmodal_choose_defult.png"
+              /></a>
+              <a href="#" class="Normal_Pay"
+                ><img src="./img/HP_NORMALmodal_pay_defult.png"
+              /></a>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <img
+      class="modal-body"
+      id="Normal_modal-body"
+      src="./img/HP_NORMALIntro_modal.png"
+    />
+
+  </div>
+</div>
+
+<!-- YJ -------------------------------------------------------------->
+<div class="YJModal">
+  <div
+    class="modal fade"
+    id="exampleModal-YJ"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" id="YJ_modal-dialog">
+      <div class="modal-content" id="YJ_modal-content">
+        <div class="modal-button" id="YJ_modal-button">
+          <button
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              class="YJ_closeButton"
+              id="YJ_closeButton"
+              src="./img/HP_YJmodal_close_defult.png"
+            />
+
+            <div class="YJ_botton">
+              <a
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="YJ_choose"
+                ><img src="./img/HP_YJmodal_choose_defult.png"
+              /></a>
+              <a href="#" class="YJ_Pay"
+                ><img src="./img/HP_YJmodal_pay_defult.png"
+              /></a>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <img
+      class="modal-body"
+      id="YJ_modal-body"
+      src="./img/HP_YJIntro_modal.png"
+    />
+
+  </div>
+</div>
+
+<!-- CAT -------------------------------------------------------------->
+<div class="CatModal">
+  <div
+    class="modal fade"
+    id="exampleModal-Cat"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" id="Cat_modal-dialog">
+      <div class="modal-content" id="Cat_modal-content">
+        <div class="modal-button" id="Cat_modal-button">
+          <button
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              class="Cat_closeButton"
+              id="Cat_closeButton"
+              src="./img/HP_CATmodal_close_defult.png"
+            />
+
+            <div class="Cat_botton">
+              <a
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="Cat_choose"
+                ><img src="./img/HP_CATmodal_choose_defult.png"
+              /></a>
+              <a href="#" class="Cat_Pay"
+                ><img src="./img/HP_CATmodal_pay_defult.png"
+              /></a>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <img
+      class="modal-body"
+      id="Cat_modal-body"
+      src="./img/HP_CATIntro_modal.png"
+    />
+
+  </div>
+</div>
+
+    <!--Animation------------------------------------------------------------>
+    <div class="fall-wrapper">
+      <img class="fall" src="./img/HP_loading_fall.gif" width="25%vw" />
+    </div>
+
+    <!--BOOTSTRAP ------------------------------------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--GSAP link-------------------------------------------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollToPlugin.min.js"></script>
+
+    <!--JS-------------------------------------------------------------------------->
+    <script src="./js/HP_circleCarousel.js"></script>
+    <script src="./js/HP_jquery.js"></script>
+    <script>
+      setTimeout(function () {
+        document.getElementById("fall-wrapper").style.display = "none";
+      }, 5000);
+      $(".RollinMan").click(function () {
+        $(".RollinMan").addClass("gifImg");
+        setTimeout(function () {
+          $(".RollinMan").removeClass("gifImg");
+        }, 700);
+      });
+    </script>
+  </body>
+</html>
