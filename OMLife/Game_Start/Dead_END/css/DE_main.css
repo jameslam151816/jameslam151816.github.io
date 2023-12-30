@@ -1,12 +1,7 @@
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 68, 225, 1) 100%
-  );
+  background-image: url(../img/DE_bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
 }
 
 /*--navbar-------------------------------------------------------------------------*/
@@ -33,12 +28,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main_you_die {
-  position: absolute;
-  width: 100%vw;
-  top: 80px;
-  z-index: 0;
-}
+
 .main_star_color {
   position: absolute;
   top: 100px;
@@ -58,16 +48,6 @@ body {
   top: 100px;
   z-index: 1;
 }
-.main_floor img {
-  display: inline-block;
-  position: absolute;
-  top: 869px;
-  width: 100vw;
-}
-
-.game_die_main {
-  background-color: blueviolet;
-}
 
 .main_text {
   position: absolute;
@@ -84,7 +64,7 @@ body {
 .main_grave img {
   position: absolute;
   top: 510px;
-  left: 737px;
+  left: 735px;
   width: 22vw;
 }
 
