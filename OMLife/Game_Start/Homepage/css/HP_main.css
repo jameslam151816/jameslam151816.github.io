@@ -225,12 +225,12 @@ button.close {
   width: 402px;
   height: 452px;
   left: calc(50% - 200px);
-  bottom: -108.8%;
+  bottom: -108%;
   z-index: 90;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-image: url(../img/HP_rollingMan_defult.png);
+  background-image: url(../img/HP_rollingMan_defult.gif);
 }
 .RollinMan.gifImg {
   background-image: url(../img/HP_rollingMan_adive.gif);
