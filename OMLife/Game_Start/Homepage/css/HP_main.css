@@ -225,7 +225,7 @@ button.close {
   width: 402px;
   height: 452px;
   left: calc(50% - 200px);
-  bottom: -106%;
+  bottom: -109%;
   z-index: 90;
   background-size: contain;
   background-repeat: no-repeat;
