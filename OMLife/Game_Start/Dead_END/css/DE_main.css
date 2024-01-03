@@ -51,7 +51,7 @@ body {
 
 .main_text {
   position: absolute;
-  top: 420px;
+  top: 424px;
   left: 550px;
   z-index: 50;
 }
@@ -63,9 +63,9 @@ body {
 
 .main_grave img {
   position: absolute;
-  top: 510px;
-  left: 735px;
-  width: 22vw;
+  top: 672px;
+  left: 860px;
+  width: 14vw;
 }
 
 /*--END button-------------------------------------------------------------------------*/
