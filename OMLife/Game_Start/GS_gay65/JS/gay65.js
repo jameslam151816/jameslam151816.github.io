@@ -22,12 +22,12 @@ $(".second_QA input").click(function () {
 //點選選項 = 2A選項DISABLE + 換圖
 $(".second_QA #2B").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose1.gif" />');
 });
 //點選選項 = 2B選項DISABLE + 換圖
 $(".second_QA #2A").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose1.gif" />');
 });
 
 //--third-------------------------------------------------------------------------//
@@ -38,7 +38,7 @@ $(".third_QA input").click(function () {
 //點選選項 = 3A選項DISABLE + 換圖
 $(".third_QA #3B").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
 });
 //點選選項 = 3B選項DISABLE + 換圖
 $(".third_QA #3A").click(function () {
@@ -70,12 +70,12 @@ $(".fifth_QA input").click(function () {
 //點選選項 = 5A選項DISABLE + 換圖
 $(".fifth_QA #5B").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
 });
 //點選選項 = 5B選項DISABLE + 換圖
 $(".fifth_QA #5A").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose1.gif" />');
 });
 
 //--sixth-------------------------------------------------------------------------//
@@ -91,7 +91,7 @@ $(".sixth_QA #6B").click(function () {
 //點選選項 = 6B選項DISABLE + 換圖
 $(".sixth_QA #6A").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
 });
 
 //--seventh-------------------------------------------------------------------------//
@@ -102,12 +102,12 @@ $(".seventh_QA input").click(function () {
 //點選選項 = 7A選項DISABLE + 換圖
 $(".seventh_QA #7B").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
 });
 //點選選項 = 7B選項DISABLE + 換圖
 $(".seventh_QA #7A").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose2.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose1.gif" />');
 });
 
 //--eighth-------------------------------------------------------------------------//
@@ -118,7 +118,7 @@ $(".eighth_QA input").click(function () {
 //點選選項 = 8A選項DISABLE + 換圖
 $(".eighth_QA #8B").click(function () {
   $(this).siblings("input").attr("disabled", true);
-  $(".Gay_defult").html('<img src="./img/gay65_pose3.gif" />');
+  $(".Gay_defult").html('<img src="./img/gay65_pose1.gif" />');
 });
 //點選選項 = 8B選項DISABLE + 換圖
 $(".eighth_QA #8A").click(function () {
